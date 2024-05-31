@@ -33,5 +33,8 @@ function checkExam(array1, array2) {
     }
   }
   
+  console.log(score)
   return score < 0 ? 0 : score;
 }
+
+checkExam(["b", "c", "b", "a"], ["" , "a", "a", "c"])
